@@ -1,0 +1,100 @@
+########################################################################  Simple Joints test
+	Leg.joints[0]->CMD = PWM_PERIOD/10;
+	Leg.joints[1]->CMD = PWM_PERIOD/10;
+	Leg.joints[2]->CMD = PWM_PERIOD/10;
+	jointPostUpdate(Leg.joints[0]);
+	jointPostUpdate(Leg.joints[1]);
+	jointPostUpdate(Leg.joints[2]);
+
+	HAL_Delay(800);
+	Leg.joints[0]->CMD = 0;
+	Leg.joints[1]->CMD = 0;
+	Leg.joints[2]->CMD = 0;
+	jointPostUpdate(Leg.joints[0]);
+	jointPostUpdate(Leg.joints[1]);
+	jointPostUpdate(Leg.joints[2]);
+
+	HAL_Delay(1000);
+	Leg.joints[0]->CMD = -PWM_PERIOD/10;
+	Leg.joints[1]->CMD = -PWM_PERIOD/10;
+	Leg.joints[2]->CMD = -PWM_PERIOD/10;
+	jointPostUpdate(Leg.joints[0]);
+	jointPostUpdate(Leg.joints[1]);
+	jointPostUpdate(Leg.joints[2]);
+
+	HAL_Delay(500);
+	Leg.joints[0]->CMD = 0;
+	Leg.joints[1]->CMD = 0;
+	Leg.joints[2]->CMD = 0;
+	jointPostUpdate(Leg.joints[0]);
+	jointPostUpdate(Leg.joints[1]);
+	jointPostUpdate(Leg.joints[2]);
+	HAL_Delay(1000);
+
+#########################################################################	P control
+
+Leg.joints[i]->ERR = (float)(Leg.joints[i]->TARGET-Leg.joints[i]->ANGLE)*ANGLE_SENSIVITY_RAD;
+Leg.joints[i]->CMD = (int)(Leg.joints[i]->ERR * (1.0f) *VOLT_TO_PWM);
+	
+	
+#########################################################################	CRONE
+double j3_b[FILTER_NB+1] = {12025.9507381565,-30058.4979831691,-3550.89836898817,61917.2819247995,-32994.2465719655,-35486.2695895381,31697.4110551281,2294.68544856565,-7178.21683281934,1332.80021885355};
+double j3_a[FILTER_NA+1] =   {1,-1.49206674653693,-2.28043695221254,3.9746380658564,1.48959973335647,-3.65631346557873,-0.0624044825002324,1.28013144332889,-0.14402487265214,-0.109122723061193};
+
+#########################################################################	Lead control
+//b0 b1 a1 params
+float j1_param[3] = {81.14,-72.14,0.1005};
+float j2_param[3] = {81.14,-72.14,0.1005};
+float j3_param[3] = {129.5,-128,0.8489};
+
+float parameters[3][3];
+float memory[3];
+float speed_memory[3];
+float pos_memory[3];
+
+float trg_[8];
+float cmd_[9];
+
+JOINT *joints[3];
+float Tech;
+
+#########################################################################	Other
+
+
+
+
+
+/*****		CODE BACKUP
+//float polyA= -0.003046;
+//float polyB= 4.907;
+//W0 = (Leg.joints[i]->ERR*polyA + polyB;
+
+
+		
+
+float ctrl = Leg.joints[i]->ERR * 81.14f - x_prev*72.14f - y_prev*0.1005f;
+ctrl = ctrl*0.004f;
+x_prev = Leg.joints[i]->ERR;
+y_prev = ctrl;
+Leg.joints[i]->CMD = (int)(ctrl*VOLT_TO_PWM);
+
+WOKING WELL :
+params = {81.14,-72.14,0.1005};
+LeadControl gain 0.00385f;
+
+CODE LEAD CONTROL :
+Leg.joints[i]->ERR = alphaToTheta((Leg.joints[i]->TARGET)* AS5145_SENSIVITY_RAD)-alphaToTheta(Leg.joints[i]->ANGLE*AS5145_SENSIVITY_RAD);		 
+W0 = Leg.joints[i]->ERR;
+W0 -= Leg.parameters[i][2]*Leg.memory[i];
+float ctrl = Leg.parameters[i][0]*W0 + Leg.parameters[i][1]*Leg.memory[i];
+ctrl = ctrl*0.00385f;
+
+CODE LEAD ALPHA ONLY
+W0 = (Leg.joints[i]->TARGET* AS5145_SENSIVITY_RAD)- (Leg.joints[i]->ANGLE*AS5145_SENSIVITY_RAD);		 
+Leg.joints[i]->ERR = atan2(sin(W0),cos(W0));
+W0 = Leg.joints[i]->ERR;
+W0 -= Leg.parameters[i][2]*Leg.memory[i];
+ctrl = Leg.parameters[i][0]*W0 + Leg.parameters[i][1]*Leg.memory[i];
+ctrl = -5.0f*ctrl;
+
+*****************/
