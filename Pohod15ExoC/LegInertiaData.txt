@@ -1,0 +1,339 @@
+Z : joint axe
+
+========================================================================================
+FRONT LEG / ref J1
+========================================================================================
+
+Propriétés de masse de composants sélectionnés
+     Système de coordonnées: Femur_tibia
+
+Masse = 31.987 grammes
+
+Volume = 22697 millimètres cubes
+
+Superficie = 34404  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = -44.066
+	Y = 48.178
+	Z = -0.28333
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = (-0.69005,  0.72376,  0.00059)   	Px = 6318.2
+	 Iy = ( 0.7237,  0.69001, -0.01216)   	Py = 60614
+	 Iz = (-0.00921, -0.00796, -0.99993)   	Pz = 63966
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 34760	Lxy = -27118	Lxz = -53.127
+	Lyx = -27118	Lyy = 32173	Lyz = -3.3521
+	Lzx = -53.127	Lzy = -3.3521	Lzz = 63966
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 1.0901e+05	Ixy = -95026	Ixz = 346.24
+	Iyx = -95026	Iyy = 94289	Iyz = -439.98
+	Izx = 346.24	Izy = -439.98	Izz = 2.0032e+05
+	
+	
+========================================================================================
+Back LEG / ref J1
+========================================================================================
+
+Propriétés de masse de composants sélectionnés
+     Système de coordonnées: Femur_tibia
+
+Masse = 451.42 grammes
+
+Volume = 2.6995e+05 millimètres cubes
+
+Superficie = 2.683e+05  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = 101.82
+	Y = 118.17
+	Z = -2.3535
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = (-0.91343, -0.40685, -0.01124)   	Px = 5.3339e+05
+	 Iy = ( 0.08831, -0.22508,  0.97033)   	Py = 2.213e+06
+	 Iz = (-0.39731,  0.88533,  0.24153)   	Pz = 2.2716e+06
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 8.2087e+05	Lxy = 6.448e+05	Lxz = 22871
+	Lyx = 6.448e+05	Lyy = 1.9809e+06	Lyz = -4847.2
+	Lzx = 22871	Lzy = -4847.2	Lzz = 2.2162e+06
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 7.1275e+06	Ixy = 6.0768e+06	Ixz = -85309
+	Iyx = 6.0768e+06	Iyy = 6.6638e+06	Iyz = -1.304e+05
+	Izx = -85309	Izy = -1.304e+05	Izz = 1.3201e+07
+	
+========================================================================================
+Front LEG / ref J2
+========================================================================================
+Propriétés de masse de composants sélectionnés
+     Système de coordonnées: Coxa_femur
+
+Masse = 152.56 grammes
+
+Volume = 88650 millimètres cubes
+
+Superficie = 1.0589e+05  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = 20.099
+	Y = 46.328
+	Z = -1.247
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = ( 0.7148,  0.69787,  0.04519)   	Px = 1.527e+05
+	 Iy = ( 0.69736, -0.71614,  0.02884)   	Py = 2.368e+05
+	 Iz = ( 0.05249,  0.0109, -0.99856)   	Pz = 3.648e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 1.9418e+05	Lxy = 41882	Lxz = 9424.7
+	Lyx = 41882	Lyy = 1.9586e+05	Lyz = 4045.3
+	Lzx = 9424.7	Lzy = 4045.3	Lzz = 3.6426e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 5.2187e+05	Ixy = 1.8394e+05	Ixz = 5601
+	Iyx = 1.8394e+05	Iyy = 2.5772e+05	Iyz = -4768.3
+	Izx = 5601	Izy = -4768.3	Izz = 7.5333e+05
+
+========================================================================================
+Back LEG / ref J2
+========================================================================================
+
+Propriétés de masse de composants sélectionnés
+     Système de coordonnées: Coxa_femur
+
+Masse = 339.99 grammes
+
+Volume = 2.0631e+05 millimètres cubes
+
+Superficie = 2.0136e+05  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = -83.615
+	Y = -48.168
+	Z = -2.8015
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = ( 0.73008,  0.6697, -0.13595)   	Px = 4.4153e+05
+	 Iy = (-0.0013,  0.20031,  0.97973)   	Py = 7.0466e+05
+	 Iz = ( 0.68336, -0.71511,  0.14712)   	Pz = 8.2835e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 6.2217e+05	Lxy = 1.891e+05	Lxz = -38553
+	Lyx = 1.891e+05	Lyy = 6.499e+05	Lyz = -10945
+	Lzx = -38553	Lzy = -10945	Lzz = 7.0248e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 1.4136e+06	Ixy = 1.5584e+06	Ixz = 41090
+	Iyx = 1.5584e+06	Iyy = 3.0296e+06	Iyz = 34934
+	Izx = 41090	Izy = 34934	Izz = 3.8683e+06
+	
+========================================================================================
+Front LEG / ref J3
+========================================================================================
+Propriétés de masse de Leg15s
+     Configuration: Défaut
+     Système de coordonnées: Throax_coxa
+
+Masse = 485.11 grammes
+
+Volume = 2.9327e+05 millimètres cubes
+
+Superficie = 3.0346e+05  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = 21.182
+	Y = 18.055
+	Z = -1.4336
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = (-0.68445, -0.6892,  0.23776)   	Px = 5.8893e+05
+	 Iy = ( 0.38089, -0.6161, -0.68945)   	Py = 3.0818e+06
+	 Iz = ( 0.62166, -0.38133,  0.6842)   	Pz = 3.1098e+06
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 1.9248e+06	Lxy = 1.1826e+06	Lxz = -4.176e+05
+	Lyx = 1.1826e+06	Lyy = 1.9017e+06	Lyz = -4.0118e+05
+	Lzx = -4.176e+05	Lzy = -4.0118e+05	Lzz = 2.954e+06
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 2.0839e+06	Ixy = 1.3681e+06	Ixz = -4.3233e+05
+	Iyx = 1.3681e+06	Iyy = 2.1204e+06	Iyz = -4.1373e+05
+	Izx = -4.3233e+05	Izy = -4.1373e+05	Izz = 3.3298e+06
+========================================================================================
+Back LEG / ref J3
+========================================================================================
+Propriétés de masse de composants sélectionnés
+     Système de coordonnées: Throax_coxa
+
+Masse = 221.69 grammes
+
+Volume = 1.378e+05 millimètres cubes
+
+Superficie = 1.3211e+05  millimètres carrés
+
+Centre de gravité: ( millimètres )
+	X = 60.124
+	Y = 57.734
+	Z = -20.33
+
+Principaux axes et moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité.
+	 Ix = (-0.47675, -0.84432,  0.24459)   	Px = 3.2554e+05
+	 Iy = (-0.8558,  0.50937,  0.09023)   	Py = 3.8214e+05
+	 Iz = (-0.20077, -0.16631, -0.96542)   	Pz = 5.4985e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au centre de gravité et aligné avec le système de coordonnées de sortie.
+	Lxx = 3.7604e+05	Lxy = 17185	Lxz = -39106
+	Lyx = 17185	Lyy = 3.4643e+05	Lyz = -38615
+	Lzx = -39106	Lzy = -38615	Lzz = 5.3506e+05
+
+Moments d'inertie: ( grammes *  millimètres carrés )
+Pris au système de coordonnées de sortie.
+	Ixx = 1.2066e+06	Ixy = 7.8672e+05	Ixz = -3.1009e+05
+	Iyx = 7.8672e+05	Iyy = 1.2395e+06	Iyz = -2.9882e+05
+	Izx = -3.1009e+05	Izy = -2.9882e+05	Izz = 2.0754e+06
+	
+	
+############################################# RESULTS
+Joint 1 [Tiabia]
+#############################
+Static system
+Top spring [N/m] :
+
+k =
+
+  737.8197
+
+Bottom spring [N/m] :
+
+ans =
+
+  230.5686
+
+Dynamic system
+Top spring [N/m] :
+
+k =
+
+   1.3132e+03
+
+Bottom spring [N/m] :
+
+ans =
+
+  410.3635
+
+Top spring [daN/mm] :
+
+ans =
+
+    0.1313
+
+Bottom spring [daN/mm] :
+
+ans =
+
+    0.0410
+	
+#############################
+Joint 2 [Femur]
+#############################
+Static system
+Top spring [N/m] :
+
+k =
+
+  555.6938
+
+Bottom spring [N/m] :
+
+ans =
+
+  173.6543
+
+Dynamic system
+Top spring [N/m] :
+
+k =
+
+  665.6341
+
+Bottom spring [N/m] :
+
+ans =
+
+  208.0107
+
+Top spring [daN/mm] :
+
+ans =
+
+    0.0666
+
+Bottom spring [daN/mm] :
+
+ans =
+
+    0.0208
+	
+#############################
+Joint 3 [Coxa]
+#############################
+Static system
+Top spring [N/m] :
+
+k =
+
+  792.8840
+
+Bottom spring [N/m] :
+
+ans =
+
+  247.7762
+
+Dynamic system
+Top spring [N/m] :
+
+k =
+
+  924.8147
+
+Bottom spring [N/m] :
+
+ans =
+
+  289.0046
+
+Top spring [daN/mm] :
+
+ans =
+
+    0.0925
+
+Bottom spring [daN/mm] :
+
+ans =
+
+    0.0289

@@ -1,0 +1,17 @@
+﻿"entretoiseBearing"= 1.5mm
+"length_tibia"= 206mm
+"length_femur"= 117mm
+"length_coxa"= 27mm
+"height"= 40mm
+"width"= 100mm
+"lever"= 40mm
+"errorFlat"= 0.20mm
+"errorFlat_tight"= 0.15mm
+"errorCircle"= 0.40mm
+"errorCircle_tight" = 0.30mm
+"cuticule"=1.5mm
+"cuticule_attach_w"=10mm
+"cuticule_attach_h"=2.5mm
+"depthMagnet"= 1mm
+"insert_d" = 3.2mm
+"insert_l" = 5mm
