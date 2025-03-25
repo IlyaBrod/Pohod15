@@ -1,12 +1,12 @@
 <div align="center">
 <table border="0">
  <tr>
-    <td><td><h1> Pohod15Leg </h1>
+    <td><h1> Pohod15Leg </h1>
     CAD views of the Pohod15 bio-inspired leg. (1) DC motor (2) Angle (3) Force sensor (4) Worm gear (5) Straight gear (6) Control circuit (7) Silicone tip.<br><br>  
       <div align="center">
       <img src="pohodLegs.png" width="80%" height="80%"/>
     </div>
-    </td></td>
+    </td>
     <td>
     <h1> Description: </h1>
     This project presents the design of a 3 DoF bio-inspired robotic leg. The desert ant <i>Cataglyphis fortis</i> was used as a reference for segment sizing, with a scale ratio of 1:30.<br><br>
