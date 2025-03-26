@@ -2,7 +2,7 @@
 <table border="0">
  <tr>
     <td><h1> Pohod15Leg </h1>
-    CAD views of the Pohod15 bio-inspired leg. (1) DC motor (2) Angle (3) Force sensor (4) Worm gear (5) Straight gear (6) Control circuit (7) Silicone tip.<br><br>  
+    CAD views of the Pohod15 bio-inspired leg. (1) DC motor (2) Angle (3) Force sensor (4) Worm gear (5) Spur gear (6) Control circuit (7) Silicone tip.<br><br>  
       <div align="center">
       <img src="pohodLegs.png" width="80%" height="80%"/>
     </div>
@@ -12,7 +12,7 @@
     This project presents the design of a 3 DoF bio-inspired robotic leg. The desert ant <i>Cataglyphis fortis</i> was used as a reference for segment sizing, with a scale ratio of 1:30.<br><br>
 The structure is mainly composed of FDM 3D-printed parts. An additional carbon fiber shaft is used for the tibia, and a silicone molded tip improves surface adherence.<br>  
 The actuation system consists of 3 DC motors (MABUCHI RK-370CC-14230), controlled with a custom-built shield made of L298N. However, nowadays, there are good Pololu control boards available (<a href="https://www.pololu.com/category/10/brushed-dc-motor-controllers">Pololu control boards</a>).<br>  
-An irreversible worm-gear system is built using custom-machined axes jointed to Delrin straight gears to double the motor's torque output. These parts can also be assembled from cut threaded rods.<br>  
+An irreversible worm-gear system is built using custom-machined axes jointed to Delrin spur gears to double the motor's torque output. These parts can also be assembled from cut threaded rods.<br>  
 Angular sensors are based on the AS5600 from AMS OSRAM manufacturer. <br><br>
     <h1>  Files: </h1>
     <h3>./Pohod15ExoC</h3>
